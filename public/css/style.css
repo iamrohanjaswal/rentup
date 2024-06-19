@@ -55,7 +55,7 @@ body{
 
 
 /*card */
-.card{
+.listing-card{
     border:none !important;
     margin-bottom:2 rem;
 }
@@ -69,7 +69,8 @@ body{
     padding: 0 !important;
 }
 
-.card-text p{
+.card-text,
+p{
     font-weight: 400;
     color: #222222 !important;
 }
@@ -105,4 +106,10 @@ body{
 .show-card{
     padding-left: 0;
     padding-right: 0;
+}
+
+/*Map */
+#map { 
+    height: 400px;
+    width: 80vh;
 }
